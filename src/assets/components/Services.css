@@ -1,0 +1,49 @@
+
+        #mov{
+            animation: slideFromLeft 2s ease forwards ;
+            opacity: 0;
+        }
+
+        @keyframes slideFromLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%) ;
+            }
+
+            100% {
+
+                opacity: 1;
+                transform: translateX(0);
+
+            
+
+            }
+        }
+
+#nave{
+
+    display: none;
+
+}
+
+        
+    
+@media screen and (min-width:768px) {
+    #nave{
+        display: flex;
+    }
+}
+
+
+
+
+#menu-button{
+    display:none ;
+}
+
+@media screen and (max-width:768px) {
+    #menu-button{
+        display: block;
+    }
+}
+  

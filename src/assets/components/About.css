@@ -1,0 +1,94 @@
+ #main {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .skill-bar {
+            transition: width 1.5s ease-in-out;
+        }
+        
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .profile-img {
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+          @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+
+
+        
+        #mov{
+            animation: slideFromLeft 1s ease forwards ;
+            opacity: 0;
+        }
+
+        @keyframes slideFromLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%) ;
+            }
+
+            100% {
+
+                opacity: 1;
+                transform: translateX(0);
+
+            
+
+            }
+        }
+
+
+        
+         .hero-image {
+            transition: all 0.5s ease;
+            transform-style: preserve-3d;
+        }
+        .hero-image:hover {
+            transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+            box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.2);
+        }
+
+
+#nave{
+
+    display: none;
+
+}
+
+        
+@media screen and (min-width:768px) {
+    #nave{
+        display: flex;
+    }
+}
+
+
+#menu-button{
+    display:none ;
+}
+
+@media screen and (max-width:768px) {
+    #menu-button{
+        display: block;
+    }
+}
+  
