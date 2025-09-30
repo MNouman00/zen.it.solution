@@ -13,7 +13,7 @@ import location from "../location.png";
 import email from "../email.png";
 import clock from "../clock.png";
 import hambur from '../hambur.png'
-import "./portfolio.css";
+import "./Portfolio.css";
 
 const Portfolio = () => {
   const [formData, setFormData] = useState({
