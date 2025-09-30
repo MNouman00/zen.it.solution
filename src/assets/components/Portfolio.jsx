@@ -1,7 +1,6 @@
 import emailjs from "@emailjs/browser";
 import React, { useState, useEffect } from "react";
 import logo from "../logo.png";
-import "./portfolio.css";
 import portpc from "../portpc.jpg";
 import ht5 from "../ht5.png";
 import cos from "../cos.png";
@@ -14,6 +13,7 @@ import location from "../location.png";
 import email from "../email.png";
 import clock from "../clock.png";
 import hambur from '../hambur.png'
+import "./portfolio.css";
 
 const Portfolio = () => {
   const [formData, setFormData] = useState({
