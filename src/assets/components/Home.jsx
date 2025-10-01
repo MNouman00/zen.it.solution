@@ -176,7 +176,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+      <div className="m-0 p-0 box-border font-mullish">
       {/* main body */}
       <div className="m-0 p-0 box-border font-mullish">
         {/* header */}
