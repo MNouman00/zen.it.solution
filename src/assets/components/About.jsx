@@ -272,7 +272,7 @@ const About = () => {
             {/* Team Member 1 */}
             <div className="team-member bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:scale-105">
               <div className="bg-gradient-to-br from-sky-200 via-blue-200 to-indigo-300 h-48 sm:h-60 flex items-center justify-center">
-                <img className="w-full h-full object-cover" src={nomi} alt="Muhammad Nouman" />
+                <img className="w-full h-full " src={nomi} alt="Muhammad Nouman" />
               </div>
               <div className="p-4 sm:p-6 text-center">
                 <h3 className="text-lg sm:text-xl font-semibold">MUHAMAD NOUMAN</h3>
