@@ -178,7 +178,7 @@ const Home = () => {
   return (
       <div className="m-0 p-0 box-border font-mullish">
       {/* main body */}
-      <div className="m-0 p-0 box-border font-mullish">
+      <div className="">
         {/* header */}
 <div className="min-h-screen w-full relative flex flex-col">
   {/* nav section */}
